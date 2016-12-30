@@ -37,6 +37,17 @@
 - Verbose (Default)
 - Warning (#FAC848)
 
+### Code Style > Java
+
+*Code Generation Tab*
+
+How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/setter?
+
+1. Open Default Settings () File -> Other Settings -> Default Settings)
+2. Go to Editor -> Java -> Code Genegation
+3. Select Preffer Longer names
+4. Enter 'm' in Field
+
 ### Code Style > XML
 
 *Android Tab*
