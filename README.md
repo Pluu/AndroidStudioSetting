@@ -3,19 +3,19 @@
 ## Plugin
 
 - .ignore
- - [링크](https://github.com/hsz/idea-gitignore)
+  - [링크](https://github.com/hsz/idea-gitignore)
 - ADB Idea (hsz)
- - [링크](https://github.com/pbreault/adb-idea)
+  - [링크](https://github.com/pbreault/adb-idea)
 - Android ButterKnife Zelezny (avast)
- - [링크](https://github.com/avast/android-butterknife-zelezny)
+  - [링크](https://github.com/avast/android-butterknife-zelezny)
 - Android Drawable Importer (winterDroid)
- - [링크](https://github.com/winterDroid/android-drawable-importer-intellij-plugin)
+  - [링크](https://github.com/winterDroid/android-drawable-importer-intellij-plugin)
 - Android Material Design Icon Generator (konifar)
- - [링크](https://github.com/konifar/android-material-design-icon-generator-plugin)
+  - [링크](https://github.com/konifar/android-material-design-icon-generator-plugin)
 - Android Parcelable code generator (mcharmas)
- - [링크](https://github.com/mcharmas/android-parcelable-intellij-plugin)
+  - [링크](https://github.com/mcharmas/android-parcelable-intellij-plugin)
 - CodeGlance (Vektah)
- - [링크](https://github.com/Vektah/CodeGlance)
+  - [링크](https://github.com/Vektah/CodeGlance)
 - Fabric for Android Studio
 - Genymotion
 
