@@ -49,7 +49,7 @@ How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/se
 3. Select Preffer Longer names
 4. Enter 'm' in Field
 
-*JavaDoc
+*JavaDoc*
 
 1. Checked, Blank likes > After parameter descriptions
 2. Checked, Blank likes > After return tag
