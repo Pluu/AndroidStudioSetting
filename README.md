@@ -17,6 +17,7 @@
 - CodeGlance (Vektah)
   - [링크](https://github.com/Vektah/CodeGlance)
 - Fabric for Android Studio
+- Material Theme
 - Genymotion
 
 - - -
@@ -47,6 +48,12 @@ How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/se
 2. Go to Editor -> Java -> Code Genegation
 3. Select Preffer Longer names
 4. Enter 'm' in Field
+
+*JavaDoc
+
+1. Checked, Blank likes > After parameter descriptions
+2. Checked, Blank likes > After return tag
+3. Checked, Other > Do not wrap one line comments
 
 ### Code Style > XML
 
