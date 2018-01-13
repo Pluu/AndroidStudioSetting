@@ -17,8 +17,10 @@
 - CodeGlance (Vektah)
   - [링크](https://github.com/Vektah/CodeGlance)
 - Fabric for Android Studio
-- Material Theme
-- Genymotion
+- Material Theme (https://github.com/ChrisRM/material-theme-jetbrains)
+   - Darker Theme
+   - Editor > Colors & Fonts > General > Editor > Gutter background > Background (#212121)
+   - Editor > Colors & Fonts > General > Text > Default Text > Background (#212121)
 
 - - -
 
@@ -51,11 +53,11 @@ How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/se
 
 *JavaDoc*
 
-1. Checked, Blank likes > After parameter descriptions
-2. Checked, Blank likes > After return tag
+1. Checked, Blank likes > After parameter descriptions (Option)
+2. Checked, Blank likes > After return tag (Option)
 3. Checked, Other > Do not wrap one line comments
 
-### Code Style > XML
+### Code Style > XML (Option)
 
 *Android Tab*
 
