@@ -40,7 +40,7 @@
 - Verbose (Default)
 - Warning (#FAC848)
 
-### Code Style > Java
+### Code Style > Java (Option)
 
 *Code Generation Tab*
 
@@ -57,9 +57,8 @@ How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/se
 2. Checked, Blank likes > After return tag (Option)
 3. Checked, Other > Do not wrap one line comments
 
-### Code Style > XML (Option)
+## zsh
 
-*Android Tab*
-
-- Layout Files
- - Insert line break after last attribute [Check True]
+1. echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.zshrc
+2. echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.zshrc
+3. source ~/.zshrc
