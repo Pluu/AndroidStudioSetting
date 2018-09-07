@@ -8,8 +8,6 @@
   - [링크](https://github.com/pbreault/adb-idea)
 - Android ButterKnife Zelezny (avast)
   - [링크](https://github.com/avast/android-butterknife-zelezny)
-- Android Drawable Importer (winterDroid)
-  - [링크](https://github.com/winterDroid/android-drawable-importer-intellij-plugin)
 - Android Material Design Icon Generator (konifar)
   - [링크](https://github.com/konifar/android-material-design-icon-generator-plugin)
 - Android Parcelable code generator (mcharmas)
