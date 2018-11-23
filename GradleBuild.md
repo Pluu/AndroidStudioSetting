@@ -1,16 +1,24 @@
 ## gradle.properfies
 
 ```
-org.gradle.jvmargs=-Xmx2g -XX:MaxPermSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
+org.gradle.jvmargs=-Xmx4g -XX:MaxPermSize=1g -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseConcMarkSweepGC
 org.gradle.caching=true
 org.gradle.configureondemand=true
 org.gradle.daemon=true
 org.gradle.parallel=true
-org.gradle.workers.max=4 // Option
 
-android.enableR8=true // AS 3.3 or Higher
-android.enableD8.desugaring=true // AS 3.3 or Higher
 android.enableBuildCache=true
+android.enableD8=true
+android.enableR8=true
+android.enableR8.fullMode=true
+android.enableD8.desugaring=true
+android.databinding.enableV2=true
+android.namespacedRClass=true
+android.enableSeparateAnnotationProcessing=true
+
+kotlin.incremental=true
+kotlin.incremental.usePreciseJavaTracking=true
+kapt.use.worker.api=true
 ```
 
 ## build.gradle
