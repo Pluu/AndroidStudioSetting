@@ -29,3 +29,4 @@ export ANDROID_HOME=/Users/pluu/Library/Android/sdk
 ## Install Plugin
 
 - git
+- brew cask install android-platform-tools
