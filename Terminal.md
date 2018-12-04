@@ -25,11 +25,7 @@ cdf() {  # short for cdfinder
 export PATH=$PATH:/Users/pluu/Library/Android/sdk/tools
 export PATH=$PATH:/Users/pluu/Library/Android/sdk/platform-tools
 export ANDROID_HOME=/Users/pluu/Library/Android/sdk
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
-
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-export PATH="$HOME/.ndenv/bin:$PATH"
-eval "$(ndenv init -)"
 ```
+## Install Plugin
+
+- git
