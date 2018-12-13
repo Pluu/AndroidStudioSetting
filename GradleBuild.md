@@ -32,9 +32,15 @@ android {
         }
     }
     
+    lintOptions {
+//      check 'Interoperability'
+//      checkDependencies true
+        ignoreTestSources true
+    }
+    
     dexOptions {
         preDexLibraries true
-        javaMaxHeapSize "4G"
+//      javaMaxHeapSize "4G"
     }
 
     if (project.hasProperty('devBuild')) {
