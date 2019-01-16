@@ -1,0 +1,8 @@
+<templateSet group="Android">
+  <template name="sbc" value="///////////////////////////////////////////////////////////////////////////&#10;// $blockName$&#10;///////////////////////////////////////////////////////////////////////////" description="block comment for structuring code" toReformat="true" toShortenFQNames="true">
+    <variable name="blockName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
