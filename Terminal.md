@@ -22,9 +22,9 @@ cdf() {  # short for cdfinder
 }
 
 # Android SDK Setting
-export PATH=$PATH:/Users/pluu/Library/Android/sdk/tools
-export PATH=$PATH:/Users/pluu/Library/Android/sdk/platform-tools
-export ANDROID_HOME=/Users/pluu/Library/Android/sdk
+1. echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.zshrc
+2. echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.zshrc
+3. source ~/.zshrc
 ```
 ## Install Plugin
 

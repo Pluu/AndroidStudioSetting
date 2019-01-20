@@ -6,15 +6,23 @@
   - [링크](https://github.com/hsz/idea-gitignore)
 - ADB Idea (hsz)
   - [링크](https://github.com/pbreault/adb-idea)
-- Android ButterKnife Zelezny (avast)
-  - [링크](https://github.com/avast/android-butterknife-zelezny)
 - Android Material Design Icon Generator (konifar)
   - [링크](https://github.com/konifar/android-material-design-icon-generator-plugin)
-- Android Parcelable code generator (mcharmas)
-  - [링크](https://github.com/mcharmas/android-parcelable-intellij-plugin)
 - CodeGlance (Vektah)
   - [링크](https://github.com/Vektah/CodeGlance)
+- kodkod
+  - generate kdoc plugin.
+  - [링크](https://github.com/siosio/kdoc-generator-intellij-plugin)
+- Kotlin Fill Class
+  - [링크](https://github.com/suusan2go/kotlin-fill-class)
 - Fabric for Android Studio
+
+### 요즘 안씀
+
+- Android ButterKnife Zelezny (avast)
+  - [링크](https://github.com/avast/android-butterknife-zelezny)
+- Android Parcelable code generator (mcharmas)
+  - [링크](https://github.com/mcharmas/android-parcelable-intellij-plugin)
 - Material Theme (https://github.com/ChrisRM/material-theme-jetbrains)
    - Darker Theme
    - Editor > Colors & Fonts > General > Editor > Gutter background > Background (#212121)
@@ -54,9 +62,3 @@ How set prefix (e.g. “m”) to remove in Android Studio's Alt-Insert getter/se
 1. Checked, Blank likes > After parameter descriptions (Option)
 2. Checked, Blank likes > After return tag (Option)
 3. Checked, Other > Do not wrap one line comments
-
-## zsh
-
-1. echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.zshrc
-2. echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.zshrc
-3. source ~/.zshrc
