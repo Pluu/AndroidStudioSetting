@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="obtainstyledattributes" value="val a = context.obtainStyledAttributes(attrs, R.styleable.$NAME$, defStyleAttr, 0)&#10;try {&#10;} finally {&#10;    a.recycle()&#10;}" description="Use Custom Styled Attributes" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
