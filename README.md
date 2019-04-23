@@ -1,5 +1,14 @@
 # AndroidStudioSetting
 
+## Install, Live Templaste
+
+- 동일한 폴더에 있는 `install.sh`를 실행
+- 지원 Template
+   - Kotlin에서 `sbc` comment 사용
+   - obtainstyledattribute
+   - ConstraintLayout
+   - LiveData
+
 ## Plugin
 
 - .ignore
@@ -13,12 +22,14 @@
 - kodkod
   - generate kdoc plugin.
   - [링크](https://github.com/siosio/kdoc-generator-intellij-plugin)
-- Kotlin Fill Class
-  - [링크](https://github.com/suusan2go/kotlin-fill-class)
-- Fabric for Android Studio
+- Presentation Assistant
+  - This plugin shows name and Win/Mac shortcuts of any action you invoke
+  - [링크](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
 
 ### 요즘 안씀
 
+- Kotlin Fill Class
+  - [링크](https://github.com/suusan2go/kotlin-fill-class)
 - Android ButterKnife Zelezny (avast)
   - [링크](https://github.com/avast/android-butterknife-zelezny)
 - Android Parcelable code generator (mcharmas)
