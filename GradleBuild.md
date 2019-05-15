@@ -22,11 +22,11 @@ kapt.use.worker.api=true
 ## Compile avoidance for kapt (since 1.3.20)
 #kapt.include.compile.classpath=false
 kotlin.parallel.tasks.in.project=true
-## Incremental annotation processing (since 1.3.30)
-kapt.incremental.apt=true
-
+### Compilation Performance Improvements
 kotlin.incremental=true
 kotlin.incremental.usePreciseJavaTracking=true
+## Incremental annotation processing (since 1.3.30)
+kapt.incremental.apt=true
 ```
 
 ## build.gradle
