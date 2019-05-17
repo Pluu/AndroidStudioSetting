@@ -1,0 +1,5 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="QuickList.Pluu">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+</keymap>
