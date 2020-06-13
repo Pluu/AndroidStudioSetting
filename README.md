@@ -3,11 +3,16 @@
 ## Install, Live Templaste
 
 - 동일한 폴더에 있는 `install.sh`를 실행
-- 지원 Template
-   - Kotlin에서 `sbc` comment 사용
-   - obtainstyledattribute
-   - ConstraintLayout
-   - LiveData
+- 설치하는 정보
+   - colors
+   - quicklists
+   - templates
+      - obtainstyledattribute
+      - ConstraintLayout
+      - LiveData
+   - disabled_plugins
+
+![install_sample](https://github.com/Pluu/AndroidStudioSetting/blob/master/screenshot/install_sample.png)
 
 ## Plugin
 
