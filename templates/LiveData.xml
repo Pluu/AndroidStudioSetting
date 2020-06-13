@@ -1,9 +1,11 @@
 <templateSet group="LiveData">
-  <template name="livedata" value="private val _$NAME$: MutableLiveData&lt;$TYPE$&gt; = MutableLiveData&lt;$TYPE$&gt;()&#10;val $NAME$: LiveData&lt;$TYPE$&gt;&#10;    get() = _$NAME$" description="LiveData Generate" toReformat="false" toShortenFQNames="true">
+  <template name="livedata" value="private val _$NAME$: MutableLiveData&lt;$TYPE$&gt; = MutableLiveData&lt;$TYPE$&gt;()&#10;val $NAME$: LiveData&lt;$TYPE$&gt; get() = _$NAME$" description="LiveData Generate" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

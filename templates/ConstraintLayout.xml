@@ -19,7 +19,7 @@
       <option name="XML_TEXT" value="false" />
     </context>
   </template>
-  <template name="cll" value="app:layout_constraintLeft_toLeftOf=&quot;$cursor$&quot;" description="constraint left to left of id" toReformat="false" toShortenFQNames="true">
+  <!-- <template name="cll" value="app:layout_constraintLeft_toLeftOf=&quot;$cursor$&quot;" description="constraint left to left of id" toReformat="false" toShortenFQNames="true">
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
@@ -58,7 +58,7 @@
       <option name="XML" value="true" />
       <option name="XML_TEXT" value="false" />
     </context>
-  </template>
+  </template> -->
   <template name="ctb" value="app:layout_constraintTop_toBottomOf=&quot;$cursor$&quot;" description="constraint top to bottom of id" toReformat="false" toShortenFQNames="true">
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
