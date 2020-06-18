@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Installs IntelliJ templates
 
 # https://en.wikipedia.org/wiki/ANSI_escape_code
