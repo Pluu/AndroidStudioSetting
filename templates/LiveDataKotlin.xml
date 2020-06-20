@@ -1,0 +1,9 @@
+<templateSet group="LiveDataKotlin">
+  <template name="livedata" value="private val _$NAME$: androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt; = androidx.lifecycle.MutableLiveData&lt;&gt;()&#10;val $NAME$: androidx.lifecycle.LiveData&lt;$TYPE$&gt; get() = _$NAME$" description="LiveData Generate in Kotlin" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
