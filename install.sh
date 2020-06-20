@@ -86,6 +86,6 @@ do
 
     echo "${LIGHTCYAN}Complete${NOCOLOR} installed"
     divider
-    echo ""
+    break
 done
 echo "Done."
