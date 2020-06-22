@@ -1,5 +1,5 @@
 <templateSet group="LiveData">
-  <template name="livedata" value="private androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt; $NAME$ = new androidx.lifecycle.MutableLiveData&lt;&gt;();&#10;&#10;public androidx.lifecycle.LiveData&lt;$TYPE$&gt; $NAME$() {&#10;    return $NAME$;&#10;}" description="LiveData Generate in Java" toReformat="false" toShortenFQNames="true">
+  <template name="livedata" value="private androidx.lifecycle.MutableLiveData&lt;$TYPE$&gt; $NAME$ = new androidx.lifecycle.MutableLiveData&lt;&gt;();&#10;&#10;public androidx.lifecycle.LiveData&lt;$TYPE$&gt; get$NAME$() {&#10;    return $NAME$;&#10;}" description="LiveData Generate in Java" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
