@@ -21,10 +21,22 @@ cdf() {  # short for cdfinder
   cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
 }
 
-# Android SDK Setting
-1. echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.zshrc
-2. echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.zshrc
-3. source ~/.zshrc
+# Android
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/emulator
+export PATH=${PATH}:$ANDROID_HOME/tools
+export PATH=${PATH}:$ANDROID_HOME/tools/bin
+export PATH=${PATH}:$ANDROID_HOME/tools/lib/x86_64
+export PATH=${PATH}:$ANDROID_HOME/platform-tools
+export PATH=${PATH}:$ANDROID_HOME/build-tools/30.0.3
+
+export PATH="/Users/pluulove/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+# java
+export JAVA_HOME=$(/usr/libexec/java_home -v11)
+export PATH=$PATH:${JAVA_HOME}/bin
 ```
 ## Install Plugin
 
