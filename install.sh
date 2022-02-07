@@ -33,10 +33,12 @@ divider () {
 # check, install root path
 DIR_LIST=(
     "/Users/$USER/Library/Preferences"
-    "/Users/$USER/Library/ApplicationSupport/Google"
+    "/Users/$USER/Library/Application Support/Google"
 )
 
 # find, installed path
+IFS=$'\n'
+
 array=()
 for VAR in "${DIR_LIST[@]}"; 
 do
