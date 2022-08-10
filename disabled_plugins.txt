@@ -13,6 +13,9 @@ com.google.gct.testing
 com.google.services
 com.google.services.firebase
 com.google.urlassistant
+com.intellij.tasks
 hg4idea
+org.editorconfig.editorconfigjetbrains
 org.jetbrains.plugins.github
 org.jetbrains.plugins.yaml
+org.jetbrains.settingsRepository
