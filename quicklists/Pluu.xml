@@ -2,7 +2,7 @@
   <action id="MoveTabRight" />
   <action id="CloseAllEditorsButActive" />
   <action id="QuickList.$Separator$" />
-  <action id="CleanGradleProject" />
-  <action id="RebuildGradleProject" />
-  <action id="Android.SyncProject" />
+  <action id="Vcs.ShowTabbedFileHistory" />
+  <action id="Vcs.ShowHistoryForBlock" />
+  <action id="Git.Branches" />
 </list>
