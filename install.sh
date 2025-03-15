@@ -52,7 +52,7 @@ EXIT='exit'
 array+=("$EXIT")
 
 # set, setting folders
-folders=( "colors" "quicklists" "templates" )
+folders=( "colors" "options" "quicklists" "templates" )
 files=( "disabled_plugins.txt" )
 
 PS3="Please select : "
