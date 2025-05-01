@@ -1,0 +1,39 @@
+<templateSet group="PluuAndroidCompose">
+  <template name="textfield" value="var $VARNAME$ by androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf(&quot;&quot;) }&#10;androidx.compose.material3.TextField(&#10;    value = $VARNAME$,&#10;    onValueChange = { $VARNAME$ = it }&#10;)" description="Add TextField with state" toReformat="true" toShortenFQNames="true">
+    <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="lazycolumn" value="androidx.compose.foundation.lazy.LazyColumn(modifier = androidx.compose.ui.Modifier.fillMaxWidth()) {&#10;    items(items = $LIST$) { item -&gt;&#10;        $END$&#10;    }&#10;}" description="Add LazyColumn" toReformat="true" toShortenFQNames="true">
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="lazyrow" value="androidx.compose.foundation.lazy.LazyRow(modifier = androidx.compose.ui.Modifier.fillMaxHeight()) {&#10;    items(items = $LIST$) { item -&gt;&#10;        $END$&#10;    }&#10;}" description="Add LazyRow" toReformat="true" toShortenFQNames="true">
+    <variable name="LIST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="hspacer" value="androidx.compose.foundation.layout.Spacer(modifier = Modifier.width($VALUE$.dp))" description="Add Horizontal spacer" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="vspacer" value="androidx.compose.foundation.layout.Spacer(modifier = Modifier.height($VALUE$.dp))" description="Add Vertical spacer" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="compp" value="@androidx.compose.runtime.Composable&#10;fun $NAME$(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier) {&#10;$END$&#10;}&#10;&#10;@androidx.compose.ui.tooling.preview.Preview(showBackground = true)&#10;@androidx.compose.runtime.Composable&#10;private fun $NAME$Preview() {&#10;    $NAME$()&#10;}" description="Create @Composable and @Preview function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE_KOTLIN" value="true" />
+      <option name="COMPOSE_KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

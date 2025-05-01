@@ -1,0 +1,10 @@
+<templateSet group="ViewModel">
+  <template name="stateflow" value="private val _$VAR$ = kotlinx.coroutines.flow.MutableStateFlow&lt;$TYPE$&gt;($VALUE$)&#10;val $VAR$: kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt; get() = _$VAR$" description="Create MutableStateFlow" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
